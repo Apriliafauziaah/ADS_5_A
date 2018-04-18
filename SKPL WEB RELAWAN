@@ -146,5 +146,22 @@ Data Store	Deskripsi
 Data_relawan	
 Data_bencana	
 
-3.3.	
+3.3. Kebutuhan Data
+3.3.1 E-R diagram
+
+3.4 Kebutuhan Non Fungsional
+	Kebutuhan non fungsional yang terdapat pada sistem informasi Relawan ini antara lain adalah.
+	- Availabity    : Web Harus dapat beroprasi setiap hari selama 24 jam
+	- Reliability   : Kegagalan dalam proses pendaftaran memiliki
+	- Ergonomy      : Tampilan userinterface web sistem informasi Relawan mudah dipahami user dan estetikanya bagus
+	- Portability   : Web dapat diakses di manapun secara online
+	- Memory        : N/A
+	- Response Time : Web mampu mengirimkan notifikasi e-mail kepada pengguna
+	- Safety 	: N/A
+	- Security 	: Web menggunakan standart enkripsi SQL
+
+3.5 Batasan Perancangan 
+	Batasan perancangan yang dipakai dalam pengembangan sistem informasi Relawan antara lain.
+	- Tampilan 
+	
 
