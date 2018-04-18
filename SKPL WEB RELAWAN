@@ -194,12 +194,8 @@ ID	Kebutuhan	Penjelasan
 10	Perangkat lunak dapat mengatur akun dari relawan	Pengaturan akun dilakukan pengguna dan perangkat lunak dapat menyimpannya secara berkala
 
 3.7.2 Kebutuhan Nonfungsional
-Kebutuhan non fungsional yang terdapat pada sistem informasi Relawan ini antara lain adalah.
-	- Availabity    : Web Harus dapat beroprasi setiap hari selama 24 jam
-	- Reliability   : Kegagalan dalam proses pendaftaran memiliki
-	- Ergonomy      : Tampilan userinterface web sistem informasi Relawan mudah dipahami user dan estetikanya bagus
-	- Portability   : Web dapat diakses di manapun secara online
-	- Memory        : N/A
-	- Response Time : Web mampu mengirimkan notifikasi e-mail kepada pengguna
-	- Safety 	: N/A
-	- Security 	: Web menggunakan standart enkripsi SQL
+Kebutuhan Non-Fungsional :
+•	System tersedia dalam 2 bahasa, yaitu Bahasa Indonesia dan Bahasa Inggris
+•	System dapat diakses di perangkat mobile dan PC
+•	System hanya tersedia pada platform web
+•	System memiliki user interface yang mudah dipahami
