@@ -162,6 +162,14 @@ Data_bencana
 
 3.5 Batasan Perancangan 
 	Batasan perancangan yang dipakai dalam pengembangan sistem informasi Relawan antara lain.
-	- Tampilan 
+	- Tampilan web dibuat dengan menggunakan photoshop
+	- Text editor yang digunakan adalah notepad++
+	- Bahasa yang digunakan adalah HTML5 dan PHP
+3.6 Kerunutan (treaceability)
+	Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya.
+	berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan pernagkat lunak yang dibangun
 	
+3.6.1 Kebutuhan Fungsional vs Proses 
+	Mapping kebutuhan fungsional dengan proses pada DFD untuk web sistem informasi Relawan adalah sebagai berikut
+	- 
 
