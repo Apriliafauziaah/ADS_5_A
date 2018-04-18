@@ -1,0 +1,23 @@
+Use Case Description: Pilih Jadwal
+1.	Pendaftaran Akun
+1.1	Brief Description
+Calon Relawan memilih Melakuakn login untuk memiliki akses lebihdalam keanggotaan
+1.2	Actor
+Relawan
+2.	Trigger
+	Adanya Bencana Alam, Type : External
+3.	Pre-Conditions
+3.1	Sistem menyiapkan form Login
+3.2	Relawan mengisikan id 
+3.3	Relawan mengisikan password
+3.4 	Sistem merequest permintaan login
+4.	Normal Course
+4.1	Relawan mengisikan id dan password untuk bisa login	
+
+5.	Post-Conditions
+5.1	Sistem menampilkan halaman login sukses
+
+6.	Exceptions
+5.1	Sistem akan menampilkan password / id salah jika tidak cocok atau belum terdaftar
+5.2	Sistem akan mengirim pessan error jika tidak ada koneksi internet
+
