@@ -131,7 +131,10 @@ ID	Kebutuhan	Penjelasan
 3.2.2.	DFD Level 1
 3.2.2.1.	DFD Level 2<Proses Pendaftaran relawan>
 3.2.2.2.	DFD Level 2<Proses Pemilihan Bencana dan Kualifikasi>
-3.2.2.3.	DFD Level <Proses lihat dan update data relawan>
+3.2.2.3.	DFD Level 2<Proses Pemilihan Jadwal keberangkatn>
+3.2.2.4.	DFD Level 2<Proses Autentifikasi registrasi relawan>
+3.2.2.5.	DFD Level 2<Proses konfirmasi kesediaan relawan>
+3.2.2.6.	DFD Level <Proses lihat dan update data relawan>
 3.2.3.	Spesifikasi Proses (P-SPEC)
 Tabel 5 Spesifikasi Proses
 Kode buble	Deskripsi
