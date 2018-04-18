@@ -171,5 +171,32 @@ Data_bencana
 	
 3.6.1 Kebutuhan Fungsional vs Proses 
 	Mapping kebutuhan fungsional dengan proses pada DFD untuk web sistem informasi Relawan adalah sebagai berikut
-	- 
 
+3.7 Ringkasan Kebutuhan
+	Sistem informasi yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan nonfungsional.
+	kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
+	karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan kebutuhan sistem Relawan.
+	
+3.7.1 Kebutuhan Fungsional
+ID	Kebutuhan	Penjelasan
+1	Perangkat lunak dapat menampilkan form pendaftaran	Form entri pendaftaran ditampilkan ketika pengguna ingin mendaftar sebagai relawan
+2	Perangkat lunak dapat menampilkan form login relawan	Pengguna yang telah terdaftar dan terverifikasi dapat melakukan login sehingga perangkat lunak perlu menampilkan form login relawan
+3	Perangkat lunak dapat menerima masukan dari pengguna, berupa data ikut serta menjadi relawan	Data keikutsertaan yang dimasukkan oleh pengguna dapat diterima oleh perangkat lunak
+4	Perangkat lunak dapat menyimpan data keikutsertaan relawan 	Data keikutsertaan relawan dapat disimpan oleh perangkat lunak
+5	Perangkat lunak dapat menyimpan data keikutsertaan menjadi relawan	Setelah pengguna yang melakukan pendaftaran sebagai relawan, perangkat lunak menyimpan data tersebut 
+6	Perangkat lunak dapat menampilkan data bencana di berbagai tempat	Data informasi bencana terdiri atas beragam bencana yang terjadi diberbagai daerah di Indonesia
+7	Perangkat lunak dapat menerima masukkan username dan password	Username dan password yang dimasukkan pembeli harus dapat diterima oleh perangkat lunak
+8	Perangkat lunak menampilkan data pendaftar relawan di daerah yang dipilih	Data pendaftar relawan menampilkan semua relawan yang ikut serta dalam membantu daerah tertentu serta kualifikasi skill yang dimasukkan
+9	Perangkat lunak dapat menampilkan daftar kualifikasi skill yang dibutuhkan di suatu bencana di Indonesia 	Daftar kualifikasi skill yang dibutuhkan sesuai dengan bencana yang sedang terjadi
+10	Perangkat lunak dapat mengatur akun dari relawan	Pengaturan akun dilakukan pengguna dan perangkat lunak dapat menyimpannya secara berkala
+
+3.7.2 Kebutuhan Nonfungsional
+Kebutuhan non fungsional yang terdapat pada sistem informasi Relawan ini antara lain adalah.
+	- Availabity    : Web Harus dapat beroprasi setiap hari selama 24 jam
+	- Reliability   : Kegagalan dalam proses pendaftaran memiliki
+	- Ergonomy      : Tampilan userinterface web sistem informasi Relawan mudah dipahami user dan estetikanya bagus
+	- Portability   : Web dapat diakses di manapun secara online
+	- Memory        : N/A
+	- Response Time : Web mampu mengirimkan notifikasi e-mail kepada pengguna
+	- Safety 	: N/A
+	- Security 	: Web menggunakan standart enkripsi SQL
