@@ -1,0 +1,16 @@
+Sistem Request Sistem Informasi Recruitment Relawan
+
+Project Sponsor	:	Ketua SAR
+Business Need	:	•	Distribusi relawan untuk daerah yang terkena bencana lebih merata
+•	Memudahkan relawan mengetahui daerah yang terkena bencana
+Business Requirement	:	•	Informasi tentang letak bencana alam
+•	Fasilitas yang diberikan ke relawan
+•	Informasi tentang beberapa banyak relawan yang dibutuhkan
+•	Kriteria relawan yang dibutuhkan
+Business Value	:	•	Mempercepat bencana alam tertangani (efek langsung)
+•	Mempermudah relawan membantu daerah yang membutuhkan bantuan (efek langsung)
+•	Relawan mendapatkan reward dari SAR
+•	Pemulihan daerah yang terkena bencana lebih cepat (efek tidak langsung)
+Special Issue	:	•	System di bangun berbasis web yang responsive
+•	Update data tentang bencana alam  oleh SAR
+
