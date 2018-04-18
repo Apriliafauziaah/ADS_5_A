@@ -1,0 +1,55 @@
+Sistem Informasi Recruitment Relawan
+Use Case Description: Pendaftaran Akun
+
+By:
+Alam Asrorul Haq ()
+Aprilia Fauziah ()
+Gamma Fitrian Permadi ()
+
+
+
+
+ 
+Revision History
+Date	Version	Description	Author
+15/10/2011	1.0	Draft pembuatan Request Order	Alam, April, Gamma
+29/10/2011	1.1	Update Flow of Events	Alam, April, Gamma
+			
+			
+
+ 
+Table of Contents
+1.	Request Order	4
+1.1	Brief Description	4
+         1.2      Actor										            4
+
+2.      Trigger											            4   
+3.	Pre-Conditions	4
+4.	Normal Condition	5
+5.	Post-Conditions	5
+6.	Exception 										            6
+ 
+Use Case Description: Pendaftaran Akun
+1.	Pendaftaran Akun
+1.1	Brief Description
+Calon Relawan mendaftarkan diri agar dapat berpartisipasi membantu daerah yang terkena bencana alam
+1.2	Actor
+Relawan
+2.	Trigger
+	Adanya Bencana Alam, Type : External
+3.	Pre-Conditions
+3.1	Sistem menyiapkan form pendaftaran
+3.2	Relawan melakukan verifikasi akun
+3.3	Sistem akan mengupdate database
+4.	Normal Course
+4.1	Relawan mengisi data diri pada form pendaftaran
+
+5.	Post-Conditions
+5.1	Akun relawan telah ter-otentikasi
+5.2	Relawan memiliki akun dan dapat login akun
+
+6.	Exceptions
+5.1	Sistem akan menampilkan rekomendasi daerah bencana jika lokasi yang dipilih penuh
+5.2	Sistem akan mengirim kembali email jika dalam jangka waktu H+3 tidak ada konfirmasi pendaftaran
+5.3	Sistem akan menghaspu data jika dalam waktu 1x24 jam dari konfirmasi email kedua tidak dilakukan
+
