@@ -14,8 +14,7 @@ Interface	Antarmuka antara perangkat lunak dan pengguna
 
 
 
-
-               1.4 Aturan Penomoran 
+ 1.4 Aturan Penomoran 
 	Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai.Untuk daftar 	
 	Penamaan perangkat lunak dijelaskan pada table dibawah ini :
 Tabel 2 Aturan Penamaan
@@ -76,4 +75,76 @@ Komputer berspesifikasi  :
 Komputer yang telah terinstal :
 •	Browser (Crhome,Mozilla,Opera, dll) 
 •	Adobe Flash Player
+
+1.	Pendahuluan
+2.	DakaDeskripsi Umum Perangkat Lunak
+3.	Deskripsi Kebutuhan
+3.1.	Kebutuhan Antarmuka Eksternal
+Perangkat Lunak Sistem Informasi Recruitment Relawan membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+3.1.1.	Antarmuka pemakai
+User interface yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Informasi Recruitment Relawan antara lain :
+•	Tampilan awal web (home)
+•	Tampilan form pendaftaran
+•	Tampilan login relawan
+•	Tampilan info bencana
+•	Tampilan kualifikasi yang dibutuhkan
+•	Tampilan akun
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut :
+•	Keyboard
+•	Mouse
+•	monitor
+3.1.2.	Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain:
+•	NIC FastEthernet atau Gigabit Ethernet
+•	Kabel LAN UTP RJ45
+•	ADSL Modem
+3.1.3.	Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+•	
+3.1.4.	Antarmuka Komunikasi
+Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat l;unak antara lain :
+•	Kabel LAN UTP RJ45
+•	ADSL Modem 
+3.1.5.	
+3.2.	 Kebutuhan Fungsional
+
+Table 4 Kebutuhan Fungsional
+ID	Kebutuhan	Penjelasan
+1	Perangkat lunak dapat menampilkan form pendaftaran	Form entri pendaftaran ditampilkan ketika pengguna ingin mendaftar sebagai relawan
+2	Perangkat lunak dapat menampilkan form login relawan	Pengguna yang telah terdaftar dan terverifikasi dapat melakukan login sehingga perangkat lunak perlu menampilkan form login relawan
+3	Perangkat lunak dapat menerima masukan dari pengguna, berupa data ikut serta menjadi relawan	Data keikutsertaan yang dimasukkan oleh pengguna dapat diterima oleh perangkat lunak
+4	Perangkat lunak dapat menyimpan data keikutsertaan relawan 	Data keikutsertaan relawan dapat disimpan oleh perangkat lunak
+5	Perangkat lunak dapat menyimpan data keikutsertaan menjadi relawan	Setelah pengguna yang melakukan pendaftaran sebagai relawan, perangkat lunak menyimpan data tersebut 
+6	Perangkat lunak dapat menampilkan data bencana di berbagai tempat	Data informasi bencana terdiri atas beragam bencana yang terjadi diberbagai daerah di Indonesia
+7	Perangkat lunak dapat menerima masukkan username dan password	Username dan password yang dimasukkan pembeli harus dapat diterima oleh perangkat lunak
+8	Perangkat lunak menampilkan data pendaftar relawan di daerah yang dipilih	Data pendaftar relawan menampilkan semua relawan yang ikut serta dalam membantu daerah tertentu serta kualifikasi skill yang dimasukkan
+9	Perangkat lunak dapat menampilkan daftar kualifikasi skill yang dibutuhkan di suatu bencana di Indonesia 	Daftar kualifikasi skill yang dibutuhkan sesuai dengan bencana yang sedang terjadi
+10	Perangkat lunak dapat mengatur akun dari relawan	Pengaturan akun dilakukan pengguna dan perangkat lunak dapat menyimpannya secara berkala
+		
+		
+		
+		
+		
+		
+
+3.2.1.	Diagram Konteks
+3.2.2.	DFD Level 1
+3.2.2.1.	DFD Level 2<Proses Pendaftaran relawan>
+3.2.2.2.	DFD Level 2<Proses Pemilihan Bencana dan Kualifikasi>
+3.2.2.3.	DFD Level <Proses lihat dan update data relawan>
+3.2.3.	Spesifikasi Proses (P-SPEC)
+Tabel 5 Spesifikasi Proses
+Kode buble	Deskripsi
+DFD-0-1	Proses ini merupakan gambaran system recruitment relawan secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam system. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
+DFD1-1	Terminator yang dapat melakukan input adalah pengguna dan admin, karena kedua terminator ini merupakan pengguna aktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user/pengguna yang akan meneruskan data flow pada proses yang sesuai dengan pilihan user. 
+DFD-1-2	
+DFD-1-3	
+DFD-1-4	
+3.2.4.	Data Store
+Table 6 data store
+Data Store	Deskripsi
+Data_relawan	
+Data_bencana	
+
+3.3.	
 
