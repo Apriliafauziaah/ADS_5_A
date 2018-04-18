@@ -1,0 +1,79 @@
+1. Pendahuluan 
+		        1.1 Tujuan Penulisan 
+Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan dari perangkat lunak yang akan dibuat.Penjabaran tersebut meliputi spesifikasi kebutuhan perangkat lunak, deskripsi umum, dan juga deskripsi kebutuhan dari perangkat lunak.Perangkat lunak yang akan dibuat yakni berupa sebuah web pendaftaran relawan dalam bencana yang ada di Indonesia.Dalam rangka membangun perangkat lunak tersebut tentunya dibutuhkan spesifikasi kebutuhan perangkat lunak yang akan dituangkan dalam dokumen ini.
+            1.2 Lingkup Masalah
+Web pendaftaran relawan bencana ini adalah sebuah web yang digunakan untuk memfasilitasi / mewadahi para relawan yang ingin berpartisipasi turut ikut membantu dalam rangka penyelamatan bencana.Penggunaan web ini sendiri yakni bisa dengan cara sign in untuk bisa masuk menjadi relawan ataupun bisa juga dari luar untuk hanya sekedar melihat jadwal dan tempat-tempat yang membutuhkan beberapa relawan bantuan.Disini kami bekerjasama dengan badan penanggulangan bencana untuk mengupdate info-info seputar bencana sehingga info yang kami bagikan dapat dipertanggung jawabkan kebenaranya.
+
+             1.3 Definisi, Istilah dan Singkatan 
+	Berikut definisi, Istilahdan singkatan yang digunakan dalam dokumen ini :
+Tabel 1 Definis,Istilah dan singkatan
+Definisi, Istilah dan Singkatan	Penjelasan
+ERD	Entity Relationship Diagram.Diagram yang menggambarkan entitas suatu objek beserta relasinya
+DFD	Data Flow Diagram yang menggambarkan aliran data
+Interface	Antarmuka antara perangkat lunak dan pengguna
+
+
+
+
+               1.4 Aturan Penomoran 
+	Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai.Untuk daftar 	
+	Penamaan perangkat lunak dijelaskan pada table dibawah ini :
+Tabel 2 Aturan Penamaan
+Nama-ID	Aturan Penamaan	Deskripsi
+Kebutuhan fungsional	SRS-F-IN/PR/OUT-xxx	SRS adalah suatu System Reqiuerment summary,
+F adalah fungsional
+IN adalah sebuat inputan
+PR yakni proses
+OUT menunjukkan output
+Xxx adalah nomor SRS –ID
+Kebutuhan Non Fungsional	SRS-NF-IN/PR/OUT-xxx	SRS adalah suatu System Reqiuerment Summary
+NF adalah non-Fungsional
+IN yakni input
+PR menunjukkan Operasi
+OUT yakni output
+Xxx adalah nomor SRS-ID
+Bubble	DFD-X-Y-Z	DFD adalah Data Flow Diagram
+X adalah nomor level diagram
+Y.Z adalah nomor pada bubble diagram
+		
+
+              1.5 Referensi
+	Dokumen memiliki beberapa refrensi dalam pembuatanya yakni :
+              1.6 Deskripsi Umum Dokumen 
+	Dokumen ini menjelaskan tentang spesifikasi kebutuhan perangat lunak (SKPL) yang Yang berisikan pendahuluan, deskripsi umum perangkat lunak dan deskripsi kebutuhan. 
+	Bagian pendahulaun sendiri yakni berisikan tujuan penulisan yang menjelaskan tentang alasan dibuatnya dokumen, lingkup  masalah yang dihadapi yang berisikan ringkasan dan deskripsi singkat dari perangkat lunak yang akan dibuat, definisi dan istilah istilah dan juga singkatan singkatan yang ada dalam dokumen, aturan penomoran, rujuakn dan juga ikhtisar atau deskripsi umum dari dokumen ini sendiri.
+	Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat. Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, antarmuak perangkat lunak, dan antarmuka komunikasi. Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini. Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2. Data store dari DFD yang dibuat pun dijelaskan di dalam dokumen ini. Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses. Kebutuhan data dari perangkat lunak digambarkan dalam Entity Relationship Diagram (E-R Diagram). Batasan perancangan dari perangkat lunak yang akan dibuat tentunya harus dijelaskan dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pekerjaannya. Keruntunan dari perangkat lunak yang dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.  
+
+
+2 Deskripsi Umum Perangkat Lunak
+	 2.1  Deskripsi Umum Sistem
+	WRB (Web Relawan Bencana) Ini adalah sebuah web yang dibuat untuk memfasilitasi siapa saja yang ingin menyumbang tenaga atau rezekinya sebagai relawan untuk bencana alam.Terdapat 2 buah pilihan untuk pengaksesan web ini sendiri yakni pengguna login dan tidak login. Untuk pengguna yang tidak login hanya bisa mengakses informasi seputar bencana alam di Indonesia dan  juga daftar relawan beserta jdawalnya. Untuk pengguna login sendiri memiliki akses untuk mendaftar sebagai relawan dalam beberapa bencana dan akan diberikan dan disajikan titik titik bencana serta sepsifikasi relawan yang dibutuhkan sehingga user dapat memilih ingin mendaftarkan menjadi relawan ditempat yang diinginkan.
+	Sistem ini dikelola oleh admin yang bekerja sama dengan badan penanggulangan bencana sehingga informasi yang dibagikan dapat dipertanggung jawabkan kebenaranya.Untuk pendaftaran menjadi seorang relawan sendiri harus memenuhi keriteria yang disediakan. Setelah realawn mendaftar. 
+2.2 Karakteristik Pengguna
+Tabel 3 Karakteristik Pengguna
+Kategori Pengguna	Tugas	HakAkses ke Aplikasi 
+Guest	Melihat Informasi web	Melakukan pendaftaran User
+User Login	Memilih tempat bencana	Sign in sebagai user dan menadftar menjadi relawan
+Admin	Mengupdate informasi 	Sign in sebagai admin,control panel server dan pengaturan data 
+BMKG	Mengirimkan Informasi seputar bencana	Tidak ada
+
+2.3 Batasan
+Dalam pembuatan web ini, ada beberapa batasan yang digunakanyakni :
+1.	Pendaftaran sebagai relawan hanya bisa dilakukan oleh user yang sudah login
+2.	Terdapat beberapa kriteria yang harus disetujui oleh user untuk menjadi relawan 
+3.	Web ini hanya bisa diakses melalu browser baik pc maupun smartphone
+
+2.4 Lingkungan Operasi
+Web Relwan Bencana ini dapat beroperasi dengan baik pada spesifikasi sebagai beriku :
+Komputer berspesifikasi  :
+•	Processor Intel Pentium 4
+•	Motherboard support internet connection
+•	500 GB Hard Disk Drive Utama
+•	NIC FastEthernet .Gigabit Enthernet
+•	Mouse
+•	Keyboard
+
+Komputer yang telah terinstal :
+•	Browser (Crhome,Mozilla,Opera, dll) 
+•	Adobe Flash Player
+
