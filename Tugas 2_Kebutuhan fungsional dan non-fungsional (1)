@@ -1,0 +1,19 @@
+Sistem Informasi Recruitment Relawan
+
+Kebutuhan Fungsional :
+•	Sistem dapat membagi relawan ke titik-titik bencana
+•	System dapat melihat titik-titik bencana yang saling berdekatan
+•	Calon relawan dapat mendaftarkan diri
+•	Calon relawan bisa memilih jadwal keberangkatan
+•	System dapat mengkonfirmasi daerah bencana yang belum terdapat relawan
+•	Pemerataan relawan di titik bencana
+•	Pengelompokkan relawan di titik bencana yang saling berdekatan
+•	Menampilkan tatacara pendaftaran anggota relawan baru
+•	Waktu konfirmasi relawan di batasi selama H+3 setelah pendaftaran anggota relawan
+•	Menampilkan validasi pendaftaran anggota relawan baru
+
+Kebutuhan Non-Fungsional :
+•	System tersedia dalam 2 bahasa, yaitu Bahasa Indonesia dan Bahasa Inggris
+•	System dapat diakses di perangkat mobile dan PC
+•	System hanya tersedia pada platform web
+•	System memiliki user interface yang mudah dipahami
