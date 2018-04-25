@@ -8,9 +8,10 @@ Relawan
 	Adanya Bencana Alam, Type : External
 3.	Pre-Conditions
 3.1	Sistem menyiapkan form pendaftaran Untuk Relawan 
-3.2	Relawan memilih tempat bencaan
-3.3	Sistem memvirifiaksi kelifikasi yang sudah tepat untuk relawan bencana
-3.4	Sisitem mengajukan persetujuan dari pihak keluarga (upload)
+3.2	Relawan mengisi form pendaftaran dan kualifikasi 
+3.3	Relawan memilih tempat bencaan
+3.4	Sistem memvirifiaksi kualifikasi yang sudah tepat untuk relawan bencana
+3.5	Sisitem mengajukan persetujuan dari pihak keluarga (upload)
 3.6	Sistem akan mengupdate database
 4.	Normal Course
 4.1	Relawan mengisi data diri pada form pendaftaran lokasi
@@ -20,7 +21,8 @@ Relawan
 5.2	Relawan sudah memiliki lokasi yang diinginkan
 
 6.	Exceptions
-5.1	Sistem akan menampilkan rekomendasi daerah bencana jika lokasi yang dipilih penuh
-5.2	Sistem akan mengirim kembali email jika dalam jangka waktu H-7tidak ada konfirmasi pendaftaran
-5.3	Sistem akan menghaspu data jika dalam waktu 1x24 jam dari konfirmasi email kedua tidak dilakukan
+5.1  	Sistem menampilkan pesan error jika ada form wajib yang belum terisi
+5.2	Sistem akan menampilkan rekomendasi daerah bencana jika lokasi yang dipilih penuh
+5.3	Sistem akan mengirim kembali email jika dalam jangka waktu H-7tidak ada konfirmasi pendaftaran
+5.4	Sistem akan menghaspu data jika dalam waktu 1x24 jam dari konfirmasi email kedua tidak dilakukan
 
