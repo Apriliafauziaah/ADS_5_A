@@ -57,10 +57,13 @@ Admin	Mengupdate informasi 	Sign in sebagai admin,control panel server dan penga
 BMKG	Mengirimkan Informasi seputar bencana	Tidak ada
 
 2.3 Batasan
-Dalam pembuatan web ini, ada beberapa batasan yang digunakanyakni :
+Dalam pembuatan web ini, ada beberapa batasan yang digunakan yakni :
 1.	Pendaftaran sebagai relawan hanya bisa dilakukan oleh user yang sudah login
 2.	Terdapat beberapa kriteria yang harus disetujui oleh user untuk menjadi relawan 
 3.	Web ini hanya bisa diakses melalu browser baik pc maupun smartphone
+4.	Pendaftaran relawan memiliki batas akhir selama 7 hari konfirmasi
+5.	Relawan tidak dapat memilih tempat yang diinginkan jika belum memenuhi kualifikasi 
+
 
 2.4 Lingkungan Operasi
 Web Relwan Bencana ini dapat beroperasi dengan baik pada spesifikasi sebagai beriku :
@@ -86,6 +89,8 @@ User interface yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Inform
 •	Tampilan awal web (home)
 •	Tampilan form pendaftaran
 •	Tampilan login relawan
+•	Tampilan Daftar relawan
+•	Tampilan info jadwal
 •	Tampilan info bencana
 •	Tampilan kualifikasi yang dibutuhkan
 •	Tampilan akun
