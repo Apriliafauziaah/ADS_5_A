@@ -114,17 +114,23 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat l;unak antara
 3.2.	 Kebutuhan Fungsional
 
 Table 4 Kebutuhan Fungsional
-ID	Kebutuhan	Penjelasan
-1	Perangkat lunak dapat menampilkan form pendaftaran	Form entri pendaftaran ditampilkan ketika pengguna ingin mendaftar sebagai relawan
-2	Perangkat lunak dapat menampilkan form login relawan	Pengguna yang telah terdaftar dan terverifikasi dapat melakukan login sehingga perangkat lunak perlu menampilkan form login relawan
-3	Perangkat lunak dapat menerima masukan dari pengguna, berupa data ikut serta menjadi relawan	Data keikutsertaan yang dimasukkan oleh pengguna dapat diterima oleh perangkat lunak
-4	Perangkat lunak dapat menyimpan data keikutsertaan relawan 	Data keikutsertaan relawan dapat disimpan oleh perangkat lunak
-5	Perangkat lunak dapat menyimpan data keikutsertaan menjadi relawan	Setelah pengguna yang melakukan pendaftaran sebagai relawan, perangkat lunak menyimpan data tersebut 
-6	Perangkat lunak dapat menampilkan data bencana di berbagai tempat	Data informasi bencana terdiri atas beragam bencana yang terjadi diberbagai daerah di Indonesia
-7	Perangkat lunak dapat menerima masukkan username dan password	Username dan password yang dimasukkan pembeli harus dapat diterima oleh perangkat lunak
-8	Perangkat lunak menampilkan data pendaftar relawan di daerah yang dipilih	Data pendaftar relawan menampilkan semua relawan yang ikut serta dalam membantu daerah tertentu serta kualifikasi skill yang dimasukkan
-9	Perangkat lunak dapat menampilkan daftar kualifikasi skill yang dibutuhkan di suatu bencana di Indonesia 	Daftar kualifikasi skill yang dibutuhkan sesuai dengan bencana yang sedang terjadi
-10	Perangkat lunak dapat mengatur akun dari relawan	Pengaturan akun dilakukan pengguna dan perangkat lunak dapat menyimpannya secara berkala
+ID		Kebutuhan													Penjelasan					Penjelasan
+SRS-F-OUT-001	Perangkat lunak dapat menampilkan form pendaftaran								Form entri pendaftaran ditampilkan ketika pengguna ingin mendaftar sebagai relawan
+SRS-F-OUT-002	Perangkat lunak dapat menampilkan form login relawan								Pengguna yang telah terdaftar dan terverifikasi dapat melakukan login sehingga perangkat lunak perlu menampilkan form login relawan
+SRS-F-IN-003	Perangkat lunak dapat menerima masukan dari pengguna, berupa data ikut serta menjadi relawan			Data keikutsertaan yang dimasukkan oleh pengguna dapat diterima oleh perangkat lunak
+SRS-F-IN-004	Perangkat lunak dapat menerima masukkan dari relawan berupa jadwal keberangkatan				Data jadwal keberangkatan yang dimasukkan oleh pengguna dapat diterima oleh perangkat lunak
+SRS-F-PR-005	Perangkat lunak dapat menyimpan data keikutsertaan relawan 							Data keikutsertaan relawan dapat disimpan oleh perangkat lunak
+SRS-F-PR-006	Perangkat lunak dapat menyimpan data keikutsertaan menjadi relawan						Setelah pengguna yang melakukan pendaftaran sebagai relawan, perangkat lunak menyimpan data tersebut 
+SRS-F-OUT-007	Perangkat lunak dapat menampilkan data berupa titik-titik rawan bencana						Data informasi bencana terdiri atas beragam bencana yang terjadi diberbagai daerah di Indonesia
+SRS-F-OUT-008	Perangkat lunak dapat menampilkan titik bencana yang saling berdekatan						Data informasi bencana terdiri atas titik-titik rawan bencana yang saling berdekatan
+SRS-F-IN-009	Perangkat lunak dapat menerima masukkan username dan password							Username dan password yang dimasukkan pembeli harus dapat diterima oleh perangkat lunak
+SRS-F-OUT-010	Perangkat lunak menampilkan data pendaftar relawan di daerah yang dipilih					Data pendaftar relawan menampilkan semua relawan yang ikut serta dalam membantu daerah tertentu serta kualifikasi skill yang dimasukkan
+SRS-F-OUT-011	Perangkat lunak dapat menampilkan daftar kualifikasi skill yang dibutuhkan di suatu bencana di Indonesia 	Daftar kualifikasi skill yang dibutuhkan sesuai dengan bencana yang sedang terjadi
+SRS-F-PR-011	Perangkat lunak dapat mengatur akun dari relawan								Pengaturan akun dilakukan pengguna dan perangkat lunak dapat menyimpannya secara berkala
+SRS-F-OUT-012	Perangkat lunak akan menampilkan tata cara pendaftaran relawan baru						Tata cara pendaftaran relawan baru akan ditampilakan oleh perangkat lunak
+SRS-F-013	Perangkat lunak akan menampilakn rekomendasi daerah bencana yang belum terdapat relawan				Daftar daerah bencana akan direkomendasikan perangkat lunak untuk pemerataan relawan
+SRS-F-014	Perangkat lunak dapat mengirimkan notifikasi verifikasi pendaftaran ke anggota relawan				Setelah pendaftaran diterima, konfirmasi atau verifkasi akun relawan akan dikirim melalui e-mail oleh perangkat lunak
+
 		
 		
 		
@@ -143,16 +149,17 @@ ID	Kebutuhan	Penjelasan
 3.2.3.	Spesifikasi Proses (P-SPEC)
 Tabel 5 Spesifikasi Proses
 Kode buble	Deskripsi
-DFD-0-1	Proses ini merupakan gambaran system recruitment relawan secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam system. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
-DFD1-1	Terminator yang dapat melakukan input adalah pengguna dan admin, karena kedua terminator ini merupakan pengguna aktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user/pengguna yang akan meneruskan data flow pada proses yang sesuai dengan pilihan user. 
+DFD-0-1		Proses ini merupakan gambaran system recruitment relawan secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam system. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
+DFD1-1		Terminator yang dapat melakukan input adalah pengguna dan admin, karena kedua terminator ini merupakan pengguna aktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user/pengguna yang akan meneruskan data flow pada proses yang sesuai dengan pilihan user. 
 DFD-1-2	
 DFD-1-3	
 DFD-1-4	
 3.2.4.	Data Store
 Table 6 data store
 Data Store	Deskripsi
-Data_relawan	
-Data_bencana	
+Data_relawan	Ketika pengguna selesai melakukan pencarian dan melakukan pendaftaran relawan, maka data relawan tersebut akan tersimpan pada data store ini. Data_relawan akan melihat pemerataan jumlah relawan di suatu daerah bencana
+Data_bencana	Berisi data dari titik-titik daerah yang rawan bencana. Menyimpan posisi dari daerah bencana, informasi bencana, kualifikasi relawan yang dibutuhkan
+
 
 3.3. Kebutuhan Data
 3.3.1 E-R diagram
