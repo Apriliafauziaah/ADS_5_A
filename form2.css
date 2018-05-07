@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.boxbesar{
+	width: 100%;
+	/*border: 1px solid red;*/
+	height: 1300px;
+	margin: auto;
+}
+.header{
+	height:175px;
+	background-color: White;
+	/*border: 2px solid green; */
+	margin-left: 3px;
+}
+#nama2{
+	/*border: 1px solid black;*/
+	height: 100px;
+	width: 880px;
+	background:url("hd.png");
+	margin-top: 30px;
+	margin-left: 30px;
+}
+h1{
+font-size: 30px;
+font-family:Gadugi;
+color:white;
+color:#008080;
+margin-top: 10px;
+}
+h2{
+font-size: 20px;
+font-family:Gadugi;
+color:white;
+color:#008080;
+margin-top: -25px;
+}
+.box1{
+	height: 80px;
+	width: 85px;
+	/*border: 1px solid yellow; */
+	background-color: White;
+	margin-top:35px;
+	margin-left: 15px;
+}
+.box2{
+	height: 80px;
+	width: 800px;
+	/*border: 1px solid red; */
+	background-color: White;
+	margin-top: -80px;
+	margin-left: 120px;
+}
+.box3{
+	height: 110px;
+	width: 250px;
+	/*border: 1px solid blue; */
+	margin-top: -100px;
+	margin-left: 970px;
+}
+#akun{
+	height: 25px;
+	width: 70px;
+	background-color: ;
+	/*border: 1px solid black; */
+	margin-left: 1250px;
+	margin-top: 45px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-decoration: none;
+	color: #008080;
+}
+#cari
+{
+	height: 10px; 
+	width: 100px; 
+	padding-top: 40px;
+	font-size: 13px;
+	margin-top:-80px;
+	margin-left: 980px;
+}
+input[type=text]{
+	background-color: #25242a;
+	height: 29px;
+	font-size: 12px;
+	color: White;
+}
+#navigasi {
+	float: center;
+	height:35px;
+	width: 100%;
+	margin-top: px;
+	text-align: center;
+	background-color: #ff7418 ;
+	background-size:cover;
+	/*border: 1px solid red; */
+}
+#menu1 a{
+	height: 33px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 20px;
+	width: 178px;
+	font-size: 20px;
+	text-align: center;
+	padding-top:5px;
+	text-decoration:none;
+	/*border: 1px solid blue;*/
+	color:#E2E453;
+
+}
+#kotakmenu{
+	/*border: 1px solid green;*/
+	width: 1000px;
+	height: 33px;
+	margin-left: 200px;
+}
+#menu1 a:hover
+{
+	background-color:black;
+}
+.kotakdaf{
+	width: 410px;
+	height: 50px;
+	/*border: 1px solid black; */
+	background: url("df.png");
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-left: 460px;
+	margin-bottom: 50px;
+}
+
+.content{
+	height: 725px;
+	margin-top:5px;
+	/*border: 1px solid blue;*/
+	background-color: White;
+	margin-left: 3px;
+}
+
+.footer{
+	height: 250px;
+	background-color: #ca5000;
+	border: 1px solid gray; 
+	/*margin-top: 45px;*/
+	margin-left: 3px;
+}
+#kotakfooter{
+	height: 180px;
+	padding-left: 5px;
+	width: 1000px;
+	background: url("11.png");
+	/*border: 1px solid white;*/
+	position: relative;
+	margin-top: 35px;
+	margin-left: 163px;
+}
+
+.footer1{
+	height: 100px;
+	background-color: #3d3f40;
+	/*border: 1px solid gray;*/
+	margin-left: 3px;
+	font-size: 18px;
+	font-family: Open Sans;
+	color: #effef0;
+	padding-top: 20px;
+	padding-left:5px;
+}
