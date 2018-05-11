@@ -139,7 +139,7 @@ SRS-F-014	Perangkat lunak dapat mengirimkan notifikasi verifikasi pendaftaran ke
 		
 
 3.2.1.	Diagram Konteks
-3.2.2.	DFD Level 1
+3.2.2.		DFD Level 1
 3.2.2.1.	DFD Level 2<Proses Pendaftaran relawan>
 3.2.2.2.	DFD Level 2<Proses Pemilihan Bencana dan Kualifikasi>
 3.2.2.3.	DFD Level 2<Proses Pemilihan Jadwal keberangkatn>
@@ -150,10 +150,13 @@ SRS-F-014	Perangkat lunak dapat mengirimkan notifikasi verifikasi pendaftaran ke
 Tabel 5 Spesifikasi Proses
 Kode buble	Deskripsi
 DFD-0-1		Proses ini merupakan gambaran system recruitment relawan secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam system. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
-DFD1-1		Terminator yang dapat melakukan input adalah pengguna dan admin, karena kedua terminator ini merupakan pengguna aktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user/pengguna yang akan meneruskan data flow pada proses yang sesuai dengan pilihan user. 
-DFD-1-2	
-DFD-1-3	
-DFD-1-4	
+DFD-1-1		Terminator yang dapat melakukan input adalah pengguna dan admin, karena kedua terminator ini merupakan pengguna aktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user/pengguna yang akan meneruskan data flow pada proses yang sesuai dengan pilihan user. 
+DFD-2-1		Proses ini di buat agar bisa memenuhi spesifikasi user requirement user requirement yang kami buat. Apabila pengguna memilih menu pendaftaran, maka system akan meminta memasukkan kepada pengguna berupa data apa saja yang dibutuhkan untuk menjadi seorang relawan. Oleh karena itu output dari proses ini berupa data form relawan yang akan di isi oleh relawan	
+DFD-2-2		Proses ini akan terjadi jika akun pengguna telah keluar, sehingga pengguna diminta untuk login terlebih dahulu baru dapat melakukan pendaftaran sebagai relawan dan akan tersimpan pada data relawan.	
+DFD-2-3		Data form pendaftaran relawan di proses dan disimpan sebagai data relawan dan akan di verifikasi oleh admin.
+DFD 3-1		Relawan dapat melihat data bencana yang sedang terjadi
+DFD 3-2		Admin dapat melihat dan mengupdate data bencana serta data kualifikasi
+	
 3.2.4.	Data Store
 Table 6 data store
 Data Store	Deskripsi
